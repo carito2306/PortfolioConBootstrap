@@ -15,7 +15,7 @@ body {
 }
 
 .backgroundHome {
-    background-image: url(/images/ciudadCartagena.jpg);
+    background-image: url("../images/ciudadCartagena.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
