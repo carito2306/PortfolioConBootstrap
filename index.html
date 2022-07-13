@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header style="z-index: 99995;" class="position-fixed w-100">
+        <!-- Start NAVBAR -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg custom-nav navbar-light fixed-top sticky bg-dark opacity-75 rounded-top rounded-5">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand pt-0 logo text-white fw-bold" href="#carito">CARITO REYTAR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="me-auto"></div>
+                    <ul class="navbar-nav" id="main_nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white menuHover" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white menuHover" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white menuHover" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white menuHover" href="#proyects">Proyects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white menuHover" href="#contact">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End NAVBAR -->
+    </header>
+
+    <main>
+        <!-- Start HOME -->
+        <section id="home" class="vh-100 w-100 backgroundHome opacity-75 d-flex flex-column justify-content-center align-items-center">
+            <div class="align-items-center bg-dark opacity-75 text-center text-white p-4 rounded-pill">
+                    <h2 class="">Welcome to my Portfolio</h2>
+                    <h1 class="fw-bold">CAROLINA REYNOSO TÁRTARO</h1>
+            </div>
+        </section>
+        <!-- End HOME -->
+
+        <!-- Start ABOUT -->
+        <section id="about" class="p-5 d-flex flex-column align-items-center bg-light opacity-100">
+            <h2 class="fw-bold fs-1 mt-4">About me</h2>
+            <div class="container m-5">
+                <div class="row">
+                    <div class="col col-12 col-md-6 d-flex justify-content-center">
+                        <img src="images/Foto-CV-sin-fondo.png" class="img-thumbnail fotoCarnet" alt="foto personal">
+                    </div>
+                    <div class="col col-12 col-md-6 d-flex flex-column justify-content-center mt-5 mt-md-0">
+                        <h3>Hello there!</h3>
+                        <p>
+                            I'm Carolina, graduated as a lawyer after much study at the Faculty of Law of the National University of Córdoba (UNC). I began my judicial career in 2014 after passing the entrance exams for the Judiciary, but during 2020 something changed. <br> That year I was granted unpaid leave to carry out an investigation into the electronic file in Spain, but due to the well-known pandemic I had to rearrange plans. In those months of quarantine I took my first Graphic Design course, which led me to learn about UX/UI Design and hence Web Development, falling deeply in love with FRONT END DEVELOPMENT. <br> It was the beginning of a radical change in my working life. So I continued training to date and working as a freelance on different projects.
+                        </p>
+
+                        <!-- CURRICULUM -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            CURRICULUM VITAE
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Curriculum Vitae</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                <div class="modal-body">
+                                <img class="w-100" src="images/CV Diseño UX-UI.jpg" alt="Curriculum vitae">
+                                </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End ABOUT -->        
+
+        <!-- Start SERVICE -->
+        <section id="service" class="p-5 d-flex flex-column align-items-center bg-dark opacity-75">
+            <h2 class="fw-bold fs-1 mt-4 text-white">My Services</h2>
+            <div class="container m-5">
+                <div class="row text-center">
+                    <div class="my-3 my-md-0 col col-12 col-md-4 d-flex flex-column justify-content-top align-items-center text-white">
+                        <img src="images/web.png" class="w-25" alt="web design">
+                        <h3 class="m-4">WEB DESIGN</h3>
+                        <p class="px-2">I design fully responsive websites, adjusted to the tastes and needs of the client.</p>
+                    </div>
+                    <div class="my-3 my-md-0 col col-12 col-md-4 d-flex flex-column justify-content-top align-items-center text-white">
+                        <img src="images/ux-ui.png" class="w-25" alt="ux-ui design">
+                        <h3 class="m-4">UX/UI DESIGN</h3>
+                        <p class="px-2">UX/UI design is the combination of UX (user experience) and  UI (user interface)  to achieve the design of a product or service that works and meets the needs of an user.</p>
+                    </div>
+                    <div class="my-3 my-md-0 col col-12 col-md-4 d-flex flex-column justify-content-top align-items-center text-white">
+                        <img src="images/tuercas.png" class="w-25" alt="frontend developer">
+                        <h3 class="m-4">FRONTEND DEVELOPMENT</h3>
+                        <p class="px-2">As a front-end developer I work on creating the user interface code. In other words, I take care of the visual part of the web, making its design intuitive and attractive.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End SERVICE -->
+
+        <!-- Start PROJECTS -->
+        <section id="proyects" class="p-5 d-flex flex-column align-items-center bg-light opacity-100">
+            <h2 class="fw-bold fs-1 mt-4 text-dark">Some of my Projects</h2>
+
+            <div class="container m-5">
+                <div class="row text-center justify-content-center align-items-between">
+                    <div class="card mx-5 my-3 my-xxl-0 col col-12 col-md-4 d-flex flex-column" style="width: 18rem; height: 22rem;">
+                        <img src="images/Clara-SG.png" class="card-img-top mt-3" alt="clara desarrollo web">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">Website Design & Development</h5>
+                            <a href="https://carito2306.github.io/proyecto-clara/" class="btn btn-dark w-75 mb-3 position-absolute bottom-0 start-50 translate-middle-x" target="_blank">View Project</a>
+                        </div>
+                    </div>
+        
+                    <div class="card mx-5 my-3 my-xxl-0 col col-12 col-md-4 d-flex flex-column" style="width: 18rem; height: 22rem;">
+                        <img src="images/trabajoFinal-uxui.png" class="card-img-top mt-3" alt="diseño de app ux-ui">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">UX/UI App Design</h5>
+                            <a href="https://www.behance.net/gallery/125012459/Trabajo-final-Diseno-UXUI-CODERHOUSE-2021" class="btn btn-dark w-75 mb-3 position-absolute bottom-0 start-50 translate-middle-x" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card mx-5 my-3 my-xxl-0 col col-12 col-md-4 d-flex flex-column" style="width: 18rem; height: 22rem;">
+                        <img src="images/el-artesano.png" class="card-img-top mt-3" alt="diseño web ux-ui">
+                        <div class="card-body position-relative">
+                            <h5 class="card-title text-uppercase">UX/UI Website Design</h5>
+                            <a href="https://www.behance.net/gallery/139234827/Pagina-Web-Pizzeria-EL-ARTESANO" class="btn btn-dark w-75 mb-3 position-absolute bottom-0 start-50 translate-middle-x" target="_blank">View Project</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End PROJECTS -->
+
+        <!-- Start CONTACT -->
+        <section id="contact" class="p-5 d-flex flex-column align-items-center bg-dark opacity-75">
+            <h2 class="fw-bold fs-1 mt-4 text-white">Contact Me!</h2>
+            <div class="container m-5">
+                <div class="d-flex row text-center">
+
+                    <div class="col col-6 col-md-3 my-3 my-md-0">
+                        <a href="https://www.behance.net/carolinareytar" target="_blank">
+                            <img src="images/behance.png" class="w-25" alt="behance">
+                        </a>
+                    </div>
+
+                    <div class="col col-6 col-md-3 my-3 my-md-0">
+                        <a href="https://wa.me/34617046292" target="_blank">
+                            <img src="images/whatsapp.png" class="w-25" alt="whatsapp">
+                        </a>
+                    </div>
+
+                    <div class="col col-6 col-md-3 mt-5 mt-md-0">
+                        <a href="https://www.linkedin.com/in/carolinareytar/" target="_blank">
+                            <img src="images/linkedin.png" class="w-25" alt="linkedin">
+                        </a>
+                    </div>
+
+                    <div class="col col-6 col-md-3 mt-5 mt-md-0">
+                        <a href="mailto:caro.reytar23@gmail.com" target="_blank">
+                            <img src="images/gmail.png" class="w-25" alt="gmail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End CONTACT -->
+
+        <!-- Start FOOTER -->
+        <section id="service" class="p-5 d-flex flex justify-content-evenly align-items-center bg-dark opacity-100">
+            <p class="text-white">Carito Reytar © 2022 All rights reserved</p>
+            <a href="#top" class="top">
+                <img src="images/flechaArriba.png" style="width: 50px;" alt="flecha hacia arriba">
+            </a>    
+        </section>
+        <!-- End FOOTER -->
+
+    </main>
+
+</body>
+
+</html>

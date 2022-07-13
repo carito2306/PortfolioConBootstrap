@@ -1,0 +1,39 @@
+
+/* <!-- RESET --> */
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* <!-- HOME --> */
+body {
+    background-color: rgb(248, 238, 223);
+}
+
+.menuHover:hover {
+    font-weight: bold;
+}
+
+.backgroundHome {
+    background-image: url(/images/ciudadCartagena.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* <!-- ABOUT --> */
+.fotoCarnet {
+    width: 25rem;
+    object-fit: cover;
+}
+
+
+/* <!-- RESPONSIVE --> */
+
+@media screen and (max-width: 768px) {
+    .backgroundHome {
+        background-size: cover;
+        background-position: 55% 0%;
+    }
+    
+    
+}
